@@ -1,0 +1,811 @@
+/* / **************************************** */
+/* / **************************************** */
+/* HEADER */
+/*/ ******************************* */
+/*/ ******************************* */
+
+.header {
+  background-color: #0b9586;
+  color: #ffffff;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 1rem;
+}
+
+.header__logo {
+  width: 15.7rem;
+  height: 5.4rem;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.nav__list-el {
+  padding: 0.8rem 2.8rem;
+  transition: background-color 0.3s;
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s;
+}
+
+.nav__list-el::after {
+  content: "";
+  position: absolute;
+  top: 3.2rem;
+  left: 0;
+  right: 0;
+  height: 0.3rem;
+  background-color: #0000000f;
+  border-bottom: solid #0000000f;
+  border-radius: 5px;
+  transition: all 0.3s;
+  opacity: 0;
+}
+
+.nav__list-el:hover {
+  background-color: #0000000f;
+  border-radius: 5px;
+}
+
+.nav__list-el:hover::after {
+  opacity: 1;
+}
+
+.header__contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.end {
+  align-self: end;
+}
+
+.contant-number {
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  font-weight: 700;
+}
+
+/* / **************************************** */
+/* / **************************************** */
+/* SECTION PANEL */
+/*/ ******************************* */
+/*/ ******************************* */
+.section__panel {
+  background-image: url("../images/solar-panels-meadow\ 1.png");
+  background-position: top;
+  color: #ffffff;
+}
+
+.panel {
+  padding-block: 15.1rem 8.4rem;
+}
+
+.panel__header {
+  font-weight: 600;
+  font-size: 5.2rem;
+  line-height: 62.93px;
+  letter-spacing: -2%;
+  height: 12.6rem;
+  max-width: 72.9rem;
+  margin-bottom: 2rem;
+}
+
+.panel__text {
+  max-width: 72.9rem;
+  height: 9rem;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 3rem;
+  margin-bottom: 2rem;
+}
+
+.panel__btns {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.btn__call {
+  background-color: #3cab90;
+  color: #ffffff;
+}
+
+.btn__call-back {
+  background-color: #ffbb1c;
+  color: #2a3334;
+}
+
+/* / **************************************** */
+/* / **************************************** */
+/* SECTION INTALLERS */
+/*/ ******************************* */
+/*/ ******************************* */
+
+.intallers {
+  padding-block: 8rem;
+  display: grid;
+  gap: 2.5rem;
+  grid-template-columns: 54.9rem 53.2rem;
+}
+
+.intellars__text {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.intallers__header {
+  max-width: 54.9rem;
+  letter-spacing: -2%;
+  color: #101828;
+  line-height: 50.83px;
+  font-size: 4.2rem;
+  font-weight: 600;
+}
+
+.intellars__words {
+  color: #475467;
+  line-height: 24px;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.intellars__list {
+  padding-top: 2.6rem;
+  list-style: none;
+}
+
+.intellars__el-text,
+.intellars__el-p {
+  display: inline-block;
+  font-size: 2rem;
+}
+
+.intellars__el-text {
+  font-weight: 700;
+  line-height: 23.28px;
+  letter-spacing: 4px;
+  color: #84bd3a;
+}
+
+.intellars__el-p {
+  color: #101828;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.intellars__container-img {
+  position: relative;
+  justify-self: end;
+}
+
+.intellars__img {
+  width: 46.9rem;
+  height: 55.2rem;
+}
+
+.intellars__img-after {
+  max-width: 26.6rem;
+  background-color: #ffbb1c;
+  padding: 2.4rem 3rem;
+  position: absolute;
+  top: 29.2rem;
+  left: -5rem;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 2.8rem;
+}
+
+.intellars_svg {
+  height: 9rem;
+  width: 9rem;
+}
+
+.intellars__img-after-p {
+  letter-spacing: 0.94px;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #2a3334;
+  line-height: 20.95px;
+  /* font-family: ; */
+}
+
+/* / **************************************** */
+/* / **************************************** */
+/* SECTION POWER */
+/*/ ******************************* */
+/*/ ******************************* */
+
+.section__power {
+  background-image: url("../images/8116\ 1.png");
+}
+
+.power {
+  height: 50.5rem;
+  text-align: left;
+  color: #fff;
+}
+
+.power__header {
+  padding-top: 15rem;
+  font-size: 3rem;
+  line-height: 50.83px;
+  letter-spacing: -2%;
+  margin-bottom: 3.2rem;
+}
+
+.power__text {
+  margin-bottom: 3.2rem;
+  font-size: 1.6rem;
+  line-height: 28px;
+  font-weight: 500;
+  max-width: 50rem;
+}
+
+.power__btn {
+  padding: 1.2rem 3.4rem;
+  border-radius: 1.9rem;
+}
+
+/* / **************************************** */
+/* / **************************************** */
+/* SECTION KITS */
+/*/ ******************************* */
+/*/ ******************************* */
+.kits {
+  padding-block: 8rem;
+}
+
+.kits__header {
+  color: #101828;
+  text-align: center;
+  font-size: 4.2rem;
+  line-height: 50.83px;
+  font-weight: 600;
+  letter-spacing: -2%;
+  margin-bottom: 2.4rem;
+}
+
+.kits__text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 24px;
+  color: #475467;
+  margin-bottom: 4rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3.2rem;
+}
+
+.grid__first {
+  display: grid;
+  box-shadow: 0px 4px 30px 0px #0000000d;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.grid__img {
+  width: 358.67px;
+  height: 214px;
+}
+
+.grid__sec {
+  display: grid;
+  grid-template-rows: 0.5fr 1fr 0.5fr;
+  padding-left: 2rem;
+}
+
+.grid__header {
+  font-size: 2rem;
+  line-height: 3rem;
+  font-weight: 600;
+  color: #101828;
+}
+
+.grid__text {
+  color: #475467;
+  line-height: 2.4rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.links {
+  display: flex;
+  gap: 8px;
+}
+
+/* / **************************************** */
+/* / **************************************** */
+/* SECTION REPARIS */
+/*/ ******************************* */
+/*/ ******************************* */
+
+.section__repairs {
+  background-image: url(../images/repaits.png);
+  height: 505px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.repairs__quote {
+  max-width: 85.8rem;
+  height: 31.1rem;
+  background-color: #00000091;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  justify-content: center;
+  padding: 44px;
+}
+
+.repairs__heading {
+  color: #fff;
+  font-weight: 600;
+  font-size: 4.2rem;
+  line-height: 50.83px;
+  letter-spacing: -2%;
+  text-align: center;
+}
+
+.repairs__text {
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+/* / **************************************** */
+/* / **************************************** */
+/* SECTION CONTENT */
+/*/ ******************************* */
+/*/ ******************************* */
+.section__content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+
+  background-color: #ffbb1c0d;
+  /* height: 1022px; */
+  padding: 8rem 15rem;
+}
+
+.content__energy {
+  height: 81.4rem;
+}
+
+.energy {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  max-width: 358.67px;
+  /* max-height: 337px; */
+  margin-bottom: 2rem;
+}
+
+.svg_bg {
+  background: #3cab90;
+  display: inline-block;
+  padding: 1.4rem;
+  border-radius: 10px;
+  height: 5.6rem;
+  width: 5.6rem;
+  position: relative;
+  fill: #3cab90;
+  stroke: #fff;
+}
+
+.svg_bg::after {
+  content: "";
+  height: 2.1rem;
+  width: 2.1rem;
+  top: 1.7rem;
+  left: 1.7rem;
+  right: 0;
+  position: absolute;
+  background-color: #3cab9026;
+  transform: scale(3.5);
+  border-radius: 5px;
+}
+
+.energy__svg {
+  width: 2.8rem;
+  height: 2.8rem;
+}
+
+.energy__heading {
+  width: 358.67px;
+  height: 15.3rem;
+  font-size: 4.2rem;
+  font-weight: 600;
+  line-height: 50.83px;
+  letter-spacing: -2%;
+  color: #101828;
+}
+
+.energy__text {
+  width: 358.67px;
+  height: 8.4rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 28px;
+  color: #475467;
+}
+
+.content__integration {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  height: 81.4rem;
+}
+
+.integration__solitek {
+  box-shadow: 0px 4px 30px 0px #0000000d;
+  border: 1px solid #3cab90;
+  padding: 2.4rem;
+  border-radius: 12px;
+  width: 358.67px;
+  height: 41.8rem;
+  display: flex;
+  gap: 3.2rem;
+  flex-direction: column;
+}
+
+.integration__img {
+  border-radius: 10px;
+  width: 310.67px;
+  height: 10.6rem;
+  padding: 1rem;
+}
+
+.integration__box {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.integration__text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.integration__heading {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 3rem;
+  color: #101828;
+}
+
+.integration__word {
+  color: #475467;
+  line-height: 2.4rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.content__sunstnk {
+  height: 86.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+/* / **************************************** */
+/* / **************************************** */
+/* SECTION VALUES */
+/*/ ******************************* */
+/*/ ******************************* */
+.values {
+  padding-block: 8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.values__value {
+  display: flex;
+  flex-direction: column;
+  gap: 2.8rem;
+  align-items: center;
+}
+
+.value__heading {
+  font-size: 4.2rem;
+  letter-spacing: -2%;
+  line-height: 50.83px;
+  font-weight: 600;
+  color: #101828;
+}
+
+.value__text {
+  color: #475467;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  font-weight: 400;
+}
+
+.service__svg {
+  height: 7rem;
+  width: 7rem;
+}
+
+.values__service {
+  padding: 3.2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  align-self: start;
+}
+
+.service__customer {
+  border: 1px solid #3cab90;
+  border-radius: 12px;
+  background-color: #3cab900d;
+  padding: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.service__heading {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 3rem;
+  color: #101828;
+}
+
+.service__text {
+  color: #475467;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+  width: 294.67px;
+}
+
+/* / **************************************** */
+/* / **************************************** */
+/* SECTION say */
+/*/ ******************************* */
+/*/ ******************************* */
+
+.customer__say {
+  padding-block: 8rem;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  gap: 3.2rem;
+}
+
+.say {
+  display: flex;
+  flex-direction: column;
+  gap: 2.8rem;
+}
+
+.say__svg {
+  width: 58.33px;
+  height: 4.8rem;
+  fill: #3cab90;
+  stroke: #3cab90;
+}
+
+.say__header {
+  color: #1c1c1c;
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 6.4rem;
+  width: 40rem;
+}
+
+.say__text {
+  color: #1c1c1c;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+  width: 40rem;
+}
+
+.customer {
+  padding: 4rem;
+  border-radius: 24px;
+  background: #3cab900f;
+  display: grid;
+  grid-template-rows: 1fr 0.5fr;
+  gap: 8.7rem;
+}
+
+.customer__words {
+  display: flex;
+  flex-direction: column;
+  gap: 5.2rem;
+}
+
+.customer__words-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.customer__words-header {
+  color: #3cab90;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 20.16px;
+}
+
+.customer__svg {
+  fill: #6b6b6b;
+  stroke: #6b6b6b;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+.other {
+  fill: #d9d9d9;
+  stroke: #d9d9d9;
+}
+
+.customer__word-words {
+  color: #101828;
+  line-height: 3.6rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  width: 51.6rem;
+}
+
+.customers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cutomer__all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.customer__title {
+  display: flex;
+  gap: 0.9rem;
+  flex-direction: column;
+  color: #1c1c1c;
+}
+
+.customer__name {
+  font-size: 1.6rem;
+  display: inline-block;
+  font-weight: 700;
+  line-height: 19.36px;
+}
+
+.customer__work {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 19.36px;
+}
+
+.arrows {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.arrow-svg {
+  cursor: pointer;
+  width: 45px;
+  height: 40px;
+  border: 1px solid #1c1c1c;
+  border-radius: 50%;
+}
+
+/* / **************************************** */
+/* / **************************************** */
+/* FOOTER */
+/*/ ******************************* */
+/*/ ******************************* */
+
+.footer {
+  background-color: #283646;
+}
+
+.footer__contain {
+  padding-block: 8rem;
+  display: grid;
+  grid-template-rows: 1fr 0.01fr;
+  gap: 5.4rem;
+}
+
+.footer__start {
+  border-bottom: 1px solid #71777d;
+  padding-bottom: 4rem;
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+}
+
+.footer__imgs {
+  display: flex;
+  flex-direction: column;
+  gap: 3.8rem;
+}
+
+.footer__imgs-end {
+  display: flex;
+  gap: 4rem;
+}
+
+.footer__imgs-end-text,
+.footer__email-text {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  letter-spacing: 0.3px;
+  font-weight: 400;
+}
+
+.footer__email {
+  display: flex;
+  flex-direction: column;
+  align-self: end;
+}
+
+.input-email {
+  outline: 0;
+  color: #92989f;
+  border: 1px solid #b3bdc7;
+  width: 250px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.subscribe {
+  font-size: 1.6rem;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  color: #fff;
+}
+
+.footer__end {
+  display: flex;
+  justify-content: space-between;
+}
+
+.end__end {
+  display: flex;
+  gap: 2rem;
+}
+.end-text {
+  letter-spacing: 0.26px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 16px;
+  color: #92989f;
+}
+
+span {
+  margin-left: 2rem;
+}
